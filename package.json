@@ -1,0 +1,51 @@
+{
+  "name": "mypack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "alert-node": "^0.2.1",
+    "alertifyjs": "^1.11.0",
+    "axios": "^0.17.1",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "create-react-app": "^1.4.3",
+    "create-react-native-app": "^1.0.0",
+    "dialog": "^0.3.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-validator": "^4.3.0",
+    "hogan-express": "^0.5.2",
+    "md5": "^2.2.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^1.14.11",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "pg-promise": "^7.3.3",
+    "presets": [
+      "env"
+    ],
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2",
+    "sequelize": "^4.31.0",
+    "sequelize-cli": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

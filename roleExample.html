@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                var $role = $('input:radio[name=accRole]');
+                $role.filter('[value=Learner]').attr('checked',true);
+            })
+
+        </script>
+    </head>
+    <body>
+        <input type="radio" id="Learner" name="accRole" value="Learner">Learner
+        <input type="radio" id="Educator" name="accRole" value="Educator">Educator
+    </body>
+</html>

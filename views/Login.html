@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/Login.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="alertifyJS/alertify.min.js"></script>
+    <link rel="stylesheet" href="/alertifyJS/css/alertify.css" />
+    <link rel="stylesheet" href="/alertifyJS/css/themes/bootstrap.css" />
+    <script type="text/javascript" >
+        function nyek(){
+        var Pstat = "{{#data}}{{status}}{{/data}}";
+        var Pmess = "{{#data}}{{message}}{{/data}}";
+            
+        if(Pstat == "noerror"){
+            alertify.alert('Pisara Alert',"Welcome");
+        }else if(Pstat == "Incorrect"){
+            alertify.alert('Error',Pmess);
+        }else if(Pstat == "Warning"){
+            alertify.alert('Warning', Pmess);
+        }else{
+            alertify.alert('Pisara', 'Welcome!')
+        }
+    }
+        
+    </script>
+</head>
+<body onload="nyek();">
+        <div class="modal-dialog" id="dialog">
+        <div class="modal-content" id="content">
+        <div class="modal-header" id="header">
+            <center><img src="FINAL.png" id="image" class="img-responsive" height="92px" width="250px"><br>
+            </center>
+        <div class="model-body">
+            <form class="col-md-12 center-block"  method="post">
+             <div class="row">
+                 <div class="input-field col s12">
+                    <div class="form-group">
+                     <input id="input_uname" name="Username" type="text" class="form-control" >
+                     <label class="active" for="input_uname">Username</label>
+                    </div>
+                 </div>
+                 <div class="input-field col s12">
+                    <div class="form-group">
+                     <input id="input_pass" name="Password" type="password" class="form-control" >
+                     <label class="active" for="input_pass">Password</label>
+                    </div>
+                 </div>
+                <div class="form-group">
+                    <center><input type="submit" class="btn btn-block btn-lg btn-primary" value="Log in" id="Submit"></center> 
+                </div>
+                <div class="form-group">
+                    <span class="pull-right"><a href="/signup">Register</a></span>
+                    <span><a href="/forgotp">Forgot Password</a></span>
+                </div>
+                 <center><h6>or</h6></center>
+                 <div class="form-group">
+                  <a class="btn btn-block btn-social btn-facebook" id="facebook">
+                      <span class="fa fa-facebook"></span> Sign in with facebook
+                  </a>
+                  </div>
+                 <div class="form-group">
+                  <a class="btn btn-block btn-social btn-google" id="google">
+                      <span class="fa fa-google"></span> Sign in with google
+                  </a>
+                  </div>
+              </div>
+            </form>
+        </div>
+        </div>
+        </div>
+            </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>

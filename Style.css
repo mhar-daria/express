@@ -1,0 +1,93 @@
+
+#image {
+    margin: 60pX;
+}
+h1 {
+    position: center;
+    height: 150px;
+    width: 50%;
+    padding: px;
+}
+
+#A {
+    color:gray;
+    font-size: 12;
+}
+p {
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    
+}
+a {
+    color:#fbc02d ;
+    font-weight: 500;
+    font-family: arial;
+}
+#form1 {
+    border:1px solid seagreen;
+    width: 30%;
+    padding: 5px;
+    text-align: center;
+    background-color: WHITE;
+    
+}
+#Content {
+    background-color:WHITE;
+}
+#pass {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    margin: 2;
+    cursor: pointer;
+    width: 80%;
+	border: 3px solid seagreen;
+	font-size: 15px;
+}
+#name {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    margin: 3;
+    cursor: pointer;
+    width: 80%;
+	border: 3px solid seagreen;
+	font-size: 15px;
+}
+#SIGNUP {
+    color:#fbc02d;
+    
+    margin: 0;
+    margin-left:2.5em;
+    background-color: white;
+    font-weight: 900;
+    cursor: pointer;
+    width: 30%;
+	height: 7%;
+	border: 3px solid #fbc02d;
+    text-align: center;
+}
+#B1 {  
+    color: WHITE;
+    background-color: #fbc02d;
+    margin: 10;
+    margin-right:em;
+    font-weight: 900;
+    cursor: pointer;
+    width: 80%;
+	height: 7%;
+	border: 3px solid #fbc02d;
+    text-align: center;
+    }
+h2 {    
+    margin: 3;
+    color: white;
+    text-align: center;
+    
+}
+.container {
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #FFF;
+  background-color: #316836;
+  border-color: #0FAC8E;
+}
+
+.alert-info {
+  color: #FFF;
+  background-color: #567CBE;
+  border-color: #4099D5;
+}
+.vertical-align-middle { 
+    vertical-align: middle; 
+}
+.padding-bottom-3 {
+    padding-bottom: 4px;
+}
+
+.alert-danger {
+  color: #FFF;
+  background-color: #B60405;
+  border-color: #E05749;
+}
+
+.alert-warning{
+  color: #000;
+  background-color: #FBC02D;
+  border-color: #E05749; 
+}
+.alert-primary{
+  color: #FFF;
+  background-color: #4AA3DF;
+  border-color: #4099D5;  
+}

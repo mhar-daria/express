@@ -1,0 +1,270 @@
+#content1 {
+    text-align: center;
+    width:100%;
+    border: 2px solid #fbc02d;
+    box-shadow: 4px 4px 7px #888888;
+}
+#account-type {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Username {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Email {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Password {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#content {
+    width:100%;
+    border: 2px solid #fbc02d;
+    box-shadow: 4px 4px 7px #888888;
+}
+#Company {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Name {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Birthday {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Address1 {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Address2 {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Country {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Contact {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#Civil {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Nationality {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Language {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Primary {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#OtherKnown {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Other {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Skills {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Service {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Credentials {
+    background-color:#D3D3D3;
+    color:black;
+    height:40px;
+    font-weight:500;
+    cursor: pointer;
+    width: 100%;
+    text-align:center;
+    border-radius: 0px;
+    box-shadow: 2px 2px 3px #888888;
+}
+#Terms {
+    text-align: center;
+}
+#Submit {
+    color:white;
+    background-color: seagreen;
+    font-weight:600;
+    cursor: pointer;
+    width: 100%;
+	height:%;
+    text-align: center;
+    border-radius: 0px;
+}
+
+

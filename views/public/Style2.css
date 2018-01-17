@@ -1,0 +1,48 @@
+
+#content {
+    width:100%;
+    border: 2px solid #fbc02d;
+    box-shadow: 4px 4px 7px gray;
+}
+#model {
+    margin:20px;
+}
+#A {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;   
+    border-radius: 0px;
+}
+#B {
+    text-align: left;
+    color: black;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 100%;
+	font-size: 15px;
+    color: GRAY;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15;
+    box-shadow: 2px 2px 3px #888888;
+    border-radius: 0px;
+}
+#D {  
+    color:white;
+    background-color: #316836;
+    margin:20;
+    font-weight:600;
+    cursor: pointer;
+    width: 100%;
+	height:%;
+    text-align: center;
+    border-radius: 0px;
+}

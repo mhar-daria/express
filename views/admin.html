@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="DataTables-1.10.7/media/css/jquery.dataTables.css">
+		<!-- jQuery -->
+		<script type="text/javascript" charset="utf8" src="DataTables-1.10.7/media/js/jquery.js"></script>
+		  
+		<!-- DataTables -->
+		<script type="text/javascript" charset="utf8" src="DataTables-1.10.7/media/js/jquery.dataTables.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){	
+				$('#myTable').DataTable();
+			});
+		
+		</script>
+    </head>
+    <body>
+        <table id='myTable'>
+				<thead>
+                    <tr>
+					<td>Username</td>
+					<td>Email</td>
+                    <td>User Level</td>
+                    <td>Account Type</td>
+                    </tr>
+				</thead>
+					<tbody>
+                              {{#data}}                                 
+                                <tr>
+                                <td>{{username}}</td>
+                                <td>{{user_email}}</td>
+                                <td>{{user_level}}</td>
+                                <td>{{account_type}}</td>
+                                </tr>
+                               {{/data}}                        
+                    </tbody>
+                </table>
+        <a href="/logout"><button>Logout</button></a>
+    </body>
+</html>

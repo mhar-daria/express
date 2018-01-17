@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/Style2.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Edit Profile</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="text-center"> 
+                    <label for="upload-photo">Browse...</label>
+                    <h6><input type="file" class="form-control" id="upload-photo"></h6>
+                </div>
+            </div>        
+        </div>
+    <form class="form-horizontal" role="form">
+        {{#data}}
+        <div class="form-group">
+            <label class="col-lg-3 control-label">First Name:</label>
+            <div class="col-lg-4">
+                <input type="text" class="form-control" placeholder="First Name" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Last Name:</label>
+            <div class="col-lg-4">
+                <input type="text" class="form-control" placeholder="Last Name" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Contact Number:</label>
+            <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="Contact Number" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Address Line 1:</label>
+            <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="Address line 1" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Address Line 2:</label>
+            <div class="col-lg-4">
+            <input type="text" class="form-control" placeholder="Address line 2" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Time Zone:</label>
+            <div class="col-lg-4">
+              <div class="ui-select">
+                <select id="user_time_zone" class="form-control" required>
+                  <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                  <option value="Alaska">(GMT-09:00) Alaska</option>
+                  <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
+                  <option value="Arizona">(GMT-07:00) Arizona</option>
+                  <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
+                  <option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
+                  <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
+                  <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+                </select>
+              </div>
+            </div>
+         </div>
+        <div class="form-group">
+             <label class="col-lg-3 control-label">Email:</label>
+             <div  class="col-lg-4">
+                 <input type="Email" class="form-control" placeholder="Enter Email" required>
+             </div>
+         </div>
+         <div class="form-group">
+             <label class="col-lg-3 control-label">Username:</label>
+             <div  class="col-lg-4">
+                 <input type="text" class="form-control" placeholder="Enter Username" required>
+             </div>
+         </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Password:</label>
+            <div class="col-lg-4">
+                <input type="password" class="form-control" placeholder="Password" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label">Confirm Password:</label>
+            <div class="col-lg-4">
+                <input type="password" class="form-control" placeholder="Re-type Password" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-lg-3 control-label"></label>
+            <div class="col-md-8">
+                <input type="submit" class="btn btn-primary" value="Save Change">
+                <span></span>
+                <input type="reset" class="btn btn-default" value="Cancel">
+            </div>
+        </div>
+    </form>
+  </div>  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
